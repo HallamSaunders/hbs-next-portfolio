@@ -5,7 +5,7 @@ import { cn } from '@/utils/cn';
 import Link from 'next/link';
 
 //UI components
-import { TbArrowUpRight, TbBallpen, TbBrandReact, TbBrandUnity, TbBrandVscode, TbBriefcase, TbMail, TbPaperclip, TbSchool } from 'react-icons/tb'
+import { TbAddressBook, TbArrowUpRight, TbBallpen, TbBook2, TbBrandReact, TbBrandUnity, TbBrandVscode, TbBriefcase, TbMail, TbPaperclip, TbSchool } from 'react-icons/tb'
 import { Vortex } from './ui/vortex';
 
 //Fonts
@@ -51,13 +51,13 @@ const items = [
     title: "Background",
     description: "More about me: my eduaction and experiece.",
     header: <div className='flex flex-row text-blue-300/50 justify-center align-middle'>
-        <TbSchool size={46}/> <TbBriefcase size={46}/> <TbBrandUnity size={46}/></div>,
+        <TbSchool size={46}/> <TbBriefcase size={46}/> <TbBook2 size={46}/></div>,
   },
   {
     title: "Get in touch!",
     description: "A website perfect for you, made by me.",
     header: <div className='flex flex-row text-blue-300/50 justify-center align-middle'>
-        <TbMail size={46}/> <TbPaperclip size={46}/> <TbBallpen size={46}/></div>,
+        <TbMail size={46}/> <TbPaperclip size={46}/> <TbAddressBook size={46}/></div>,
   },
 ];
 
