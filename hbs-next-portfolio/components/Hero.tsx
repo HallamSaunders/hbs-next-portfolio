@@ -43,7 +43,7 @@ const Hero = () => {
                     <h2 className='text-center text-white text-2xl italic font-light'>Creating</h2>
                     <FlipWords words={['beautiful', 'bespoke', 'modern', 'unique']}
                         duration={1500}
-                        className='text-center text-white text-2xl italic font-light'/>
+                        className='text-center text-blue-300 text-2xl italic font-light'/>
                     <h2 className='text-center text-white text-2xl italic font-light'> websites, whatever your need.</h2>
                 </div>
                 {/*<TextGenerateEffect  
