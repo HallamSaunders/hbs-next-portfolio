@@ -11,7 +11,6 @@ import { Button } from './ui/moving-border';
 import { SlArrowDown } from 'react-icons/sl';
 
 //Fonts
-import { Urbanist } from 'next/font/google';
 import { Playfair_Display } from 'next/font/google';
 
 const playfair = Playfair_Display({
@@ -39,15 +38,16 @@ const Hero = () => {
                     words='Crafting beautiful user interfaces. Bespoke to you.'
                     className="text-center md:text-5xl lg:text-6xl italic font-light"
                 />
+                
             </div>
-            <Button
+            {/*<Button
                 borderRadius="1.75rem"
                 className="bg-black dark:bg-black text-white dark:text-white border-gray-600 dark:border-gray-600"
                 >
                 <Link href='/about' scroll={true}>
                     <SlArrowDown />
                 </Link>     
-            </Button>
+            </Button>*/}
 
 
         </div>
